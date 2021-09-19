@@ -1,0 +1,57 @@
+
+h1, h2, .buttons, form{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    color: white;
+    background-color: rgb(76, 76, 230);
+}
+
+.gameDisplay{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+#subtitle{
+    text-align: center;
+    display: flexbox;
+}
+
+.start{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+.card1, .choices, .choice1, .question{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+.inputForm {
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+.scoreBoard{
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+.container {
+    height: 200px;
+    position: relative;
+    border: 3px solid rgb(236, 167, 89);
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+  }
+  
+  .vertical-center {
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+  }

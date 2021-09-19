@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    
+    <div class="start">
+      <h1 id='title'>Coding Quiz</h1>
+      <p id='subtitle'>Take the Coding Quiz!</p>
+      <button id="beginBtn" type="button" class="btn">Start</button><br />
+    </div>
+
+    <main class="main">
+      <div id="gameDisplay">
+        <h2 class="timer"></h2>
+
+        <div id="card1" class="container">
+          <header>
+            <h3 id="question"></h3>
+          </header>
+
+          <div id="choices">
+            <div>
+              <label id="choice1"></label>
+            </div>
+            <hr />
+
+            <div>
+              <label id="choice2"></label>
+            </div>
+            <hr />
+
+            <div>
+              <label id="choice3"></label>
+            </div>
+            <hr />
+
+            <div>
+              <label id="choice4"></label>
+            </div>
+          </div>
+
+          <div id="response"></div>
+        </div>
+      </div>
+
+      <!--Player input-->
+      <div id="inputForm">
+        <h2>
+          You scored <span id="scoreShow" class="btn">Score</span> points!
+        </h2>
+        <form>
+          <label for="initials">Enter Your Initials Here:</label><br />
+          <input id="initials" type="text" maxlength="3" /><br />
+          <input id="submitBtn" type="submit" class="btn" />
+        </form>
+      </div>
+
+      <!-- Score Board -->
+      <div id="scoreDisplay" class="container">
+        <div id="card2">
+          <div>
+            <h1>High Scores</h1>
+          </div>
+
+          <div id="scoreBoard">
+            
+              <div class="vertical-center">
+              <button id="backBtn" type="button" class="btn">Refresh</button>
+              <button id="clearBtn" type="button" class="btn">
+              Clear High Score
+              </button>
+              </div>
+            
+          </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="./questions.js"></script>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
