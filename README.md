@@ -7,4 +7,4 @@ This homework was to create a coding quizr using JavaScript.
 <br> The refresh button resets the quiz so the user can try again</br>
 <br> The clear button erases all entries to the score board</br>
 <br> A link the website https://jminaga.github.io/4_homework_quiz/index.html</br>
-![](readme_image/readme.png)
+![](readme_img/screenshot.png)
